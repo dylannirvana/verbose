@@ -1,0 +1,35 @@
+
+#product-grid-controls{
+    .grid-control{
+        margin-top: 10px;
+
+        .btn-group{
+
+            .filter-option{
+                margin-top: 5px;
+                &:not(:last-of-type){
+                    margin-right: 5px;
+
+                    font-style: initial;
+                }
+            }
+        }
+
+        .ui-group__title{
+            margin-right: 0;
+            text-transform: capitalize;
+        }
+    }
+
+
+}
+.navbar{
+
+    .navbar-nav{
+        flex-direction: row;
+        .nav-btn{
+            height: 45px;
+        }
+    }
+
+}

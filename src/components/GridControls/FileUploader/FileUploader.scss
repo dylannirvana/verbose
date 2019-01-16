@@ -1,0 +1,36 @@
+
+#loader-icon{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+body.loading{
+    #loader-icon{
+        display: block!important;
+    }
+}
+
+.btn.file-upload-wrapper{
+    max-width: 730px;
+    margin: 0 auto;
+    display: block;
+
+    .file-upload-button{
+        position:absolute;
+        top: -1000px;
+    }
+    .file-upload-label{
+
+
+        padding: 20px 40PX;
+
+        display: inline-block;
+
+        background: #ddd;
+        border: 1px solid #6c757d;
+
+
+    }
+}

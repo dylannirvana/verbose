@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Saving New Grid Order to snapshot Snapshot created 1`] = `
+Array [
+  Object {
+    "__parsed_extra": Array [
+      "",
+    ],
+    "category": "Wall > Decorative",
+    "designer": "Alexa Hampton",
+    "family": "test-family",
+    "function": "Decorative",
+    "gridorder": "4144.0000",
+    "image": "https://www.circalighting.com/media/catalog/product/a/h/ah2002pnnp_8.png",
+    "name": "Abbot Single Arm Sconce",
+    "neworder": "",
+    "relatives": "Abbot",
+    "sku": "AH2002",
+  },
+  Object {
+    "__parsed_extra": Array [
+      "",
+    ],
+    "category": "Wall > Decorative",
+    "designer": "Alexa Hampton",
+    "family": "test-family",
+    "function": "Decorative",
+    "gridorder": "4150.0000",
+    "image": "https://www.circalighting.com/media/catalog/product/a/h/ah2013nbnp_5.png",
+    "name": "Gene Library Sconce",
+    "neworder": "",
+    "relatives": "Gene",
+    "sku": "AH2013",
+  },
+  Object {
+    "__parsed_extra": Array [
+      "",
+    ],
+    "category": "Wall > Decorative",
+    "designer": "Alexa Hampton",
+    "function": "Decorative",
+    "gridorder": "4159.0000",
+    "image": "https://www.circalighting.com/media/catalog/product/a/h/ah2000pnnp_5.png",
+    "name": "Dean Single Arm Sconce",
+    "neworder": "",
+    "relatives": "Dean",
+    "sku": "AH2000",
+  },
+  Object {
+    "__parsed_extra": Array [
+      "",
+    ],
+    "category": "Wall > Decorative",
+    "designer": "Alexa Hampton",
+    "function": "Decorative",
+    "gridorder": "4161.0000",
+    "image": "https://www.circalighting.com/media/catalog/product/a/h/ah2001pnnp_8.png",
+    "name": "Dean Library Sconce",
+    "neworder": "",
+    "relatives": "Dean",
+    "sku": "AH2001",
+  },
+  Object {
+    "__parsed_extra": Array [
+      "",
+    ],
+    "category": "Wall > Decorative",
+    "designer": "Alexa Hampton",
+    "function": "Decorative",
+    "gridorder": "4146.0000",
+    "image": "https://www.circalighting.com/media/catalog/product/a/h/ah2003gmnp_5.png",
+    "name": "Abbot Library Sconce",
+    "neworder": "",
+    "relatives": "Abbot",
+    "sku": "AH2003",
+  },
+  Object {
+    "__parsed_extra": Array [
+      "",
+    ],
+    "category": "Wall > Decorative",
+    "designer": "Alexa Hampton",
+    "function": "Decorative",
+    "gridorder": "4137.0000",
+    "image": "https://www.circalighting.com/media/catalog/product/a/h/ah2004pnnp_5.png",
+    "name": "Bing Single Arm Sconce",
+    "neworder": "",
+    "relatives": "Bing",
+    "sku": "AH2004",
+  },
+  Object {
+    "__parsed_extra": Array [
+      "",
+    ],
+    "category": "Wall > Decorative",
+    "designer": "Alexa Hampton",
+    "function": "Decorative",
+    "gridorder": "4139.0000",
+    "image": "https://www.circalighting.com/media/catalog/product/a/h/ah2010pnnp_5.png",
+    "name": "Ginger Single Arm Sconce",
+    "neworder": "",
+    "relatives": "Ginger",
+    "sku": "AH2010",
+  },
+]
+`;

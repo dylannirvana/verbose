@@ -1,0 +1,82 @@
+/* CSS for styling the Products */
+#page {
+
+  /* CARDS */
+  .grid-item {
+    width: 240px;
+    height: 450px;
+
+  }
+  .card {
+    align-items: center;
+    padding: 10px;
+
+    border-radius: 0;
+    height: 100%;
+  }
+
+  .card-body {
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 5px;
+    flex-grow: inherit;
+  }
+  .card-title {
+    font-size: .9rem;
+    margin-bottom: .1rem;
+  }
+  .card-text {
+    font-size: .8rem;
+    margin-bottom: .2rem;
+    line-height: 1rem;
+  }
+  .card small {
+    margin-left: 0;
+  }
+  .card small.name {
+    margin-left: 120px;
+  }
+
+  .product-info{
+    .name{
+      display: block;
+    }
+  }
+
+
+  .gridorder-label{
+    text-align: left;
+    display: block;
+    width: 100%;
+  }
+
+
+
+  /* CSS for Drag interaction */
+
+  .grid-item{
+    &:hover {
+
+      cursor: move;
+    }
+    min-height: 446px;
+  }
+
+  .grid-item.is-dragging,
+  .grid-item.is-positioning-post-drag {
+    background: #C90;
+    z-index: 2;
+  }
+
+  .packery-drop-placeholder {
+    outline: 3px dashed hsla(0, 0%, 0%, 0.5);
+    outline-offset: -6px;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+  }
+
+
+
+}
+
+

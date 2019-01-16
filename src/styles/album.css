@@ -1,0 +1,97 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+}
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem !important;
+}
+
+/* CARDS */
+.card {
+    align-items: center;
+    height: 400px;
+}
+.card-img-top {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+.card-body {
+    text-align: center;
+    padding: 1rem;
+}
+.card-title {
+    font-size: .9rem;
+    margin-bottom: .1rem;
+}
+.card-text {
+    font-size: .8rem;
+    margin-bottom: .2rem;
+    line-height: 1rem;
+}
+.btn-group {
+    font-style: oblique;
+    /* padding-top: 2px; */
+}
+small {
+    margin-left: 0;
+}
+small.name {
+    margin-left: 120px;
+}
+
+.btn-primary {
+    background-color: #333;
+}
+.btn-secondary {
+    color: #343a40;
+    /* background-color: #fff; */
+    background-color: #ddd;
+    border-color: #6c757d;
+}
+.btn-warning {
+    color: #343a40;
+    /* background-color: #fff; */
+    background-color: #ddd;
+    border-color: #6c757d;
+}
+
+/* FUNCTIONS */
+/* .sort-by-button-group {
+  display: none;
+} */
+
+/* .button-group .ceiling {
+  justify-content: center !important;
+} */
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: #ddd;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
